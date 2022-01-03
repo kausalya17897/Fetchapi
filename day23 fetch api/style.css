@@ -1,0 +1,35 @@
+.user-container{
+    margin:20px;
+    padding:10px;
+    border-radius: 1rem;
+    background-color:white;
+    display:flex;
+    gap:1rem;
+    transition: all 0.5s;
+
+}
+body{
+    background-color:beige;
+    background-image: linear-gradient(to right top,
+     #7eb5fd,
+      #af99f1,
+       #dd77c9,
+        #f4588a,
+         #e95041);
+}
+
+.user-avatar{
+    border-radius: 50%;
+}
+.user-name{
+    font-size:1.4rem;
+    font-family: 'Pacifico', cursive;
+};
+.user-container:hover{
+    transform:scale(1.1)
+}
+.user-container:hover .user-name{
+    color:crimson;
+}
+
+
